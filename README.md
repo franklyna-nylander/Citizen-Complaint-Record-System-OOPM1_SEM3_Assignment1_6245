@@ -9,19 +9,34 @@ Many complaints from citizens are written in notebooks, on loose papers, or pass
 
 It supports **SDG 16: Peace, Justice and Strong Institutions** (targets 16.6 and 16.7) by promoting transparent, responsive and accountable institutions.
 
-## Data Confidentiality
+##  Features
+
+-  Add a new complaint with citizen details (name, ID, gender and contact)
+-  Display all complaint records (numbered)
+-  Display all citizen records (numbered)
+-  Search for a complaint by ID
+-  Update complaint status (Pending, Resolved, Still In Progress)
+-  Input validation on every entry
+-  Duplicate complaint IDs are rejected
+-  A citizen ID can only belong to one person: the same ID with the same name reuses the saved record, and the same ID with a different name is rejected
+-  A citizen ID always belongs to one person: if it was used before, the existing citizen is reused instead of creating a second record
+-  Keeps a count of total complaints recorded
+
+## Digital Public Goods (DPG) Alignment
+
+### Data Confidentiality
 
 The project relies on made-up citizen details purely for illustration. It does not collect or retain sensitive personal data such as passwords, bank details, home addresses, medical records, or financial information.
 
-## Open Source
+### Open Source
 
 This project is open-source and hosted on GitHub, intended for learning and educational use.
 
-## Usability and Inclusivity
+### Usability and Inclusivity
 
 The program relies on straightforward Python logic and plain, readable console messages so that complaint records are easy for anyone to follow.
 
-## Modular and Reusable Design
+### Modular and Reusable Design
 
 The code is split into distinct classes for citizens, complaints, and the overall complaint system. Methods can be reused to add new complaints, display complaint records, display citizen records, search for a complaint by ID, and update a complaint's status.
 
