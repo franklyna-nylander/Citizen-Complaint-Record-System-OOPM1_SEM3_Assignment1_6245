@@ -38,7 +38,7 @@ The program relies on straightforward Python logic and plain, readable console m
 
 ### Modular and Reusable Design
 
-The code is split into distinct classes for citizens, complaints, and the overall complaint system. Methods can be reused to add new complaints, display complaint records, display citizen records, search for a complaint by ID, and update a complaint's status.
+The code is split into distinct classes for citizens, complaints, and the overall complaint system. Methods can be reused to add new complaints, display complaint records, display citizen records, search for a complaint by its ID, and update a complaint's status.
 
 ## Getting Started
 
